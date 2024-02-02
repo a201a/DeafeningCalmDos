@@ -4,7 +4,7 @@ import Bard from "bard-ai";
 const app = express();
 const port = 8787;
 
-const myBard = new Bard("eAiz8eb_I8oPM29fmtVNzV-1r9Fx24at65BTtNsTh4wOERSePC2uF4Epjw28NIYQH-Fu6w.");
+const myBard = new Bard("fQiz8c29m2hU32ilXhIUe2tD62ZVFysZe2nIzBNV7IH2vDP36Yn0uKrfb57QRNbyIDAjdQ.");
 
 app.get("/ask", async (req: Request, res: Response) => {
   const question: string = req.query.question as string;
